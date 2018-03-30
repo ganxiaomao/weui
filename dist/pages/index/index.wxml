@@ -11,7 +11,7 @@
           <view class="weui-label">客户姓名</view>
         </view>
         <view class="weui-cell__bd">
-          <input class="weui-input" placeholder="请输入您的姓名"/>
+          <input class="weui-input" placeholder="请输入您的姓名" bindinput="getCustomerName"/>
         </view>
         
       </view>
@@ -21,7 +21,7 @@
           <view class="weui-label">电话</view>
         </view>
         <view class="weui-cell__bd">
-          <input class="weui-input" placeholder="请输入您的联系电话"/>
+          <input class="weui-input" placeholder="请输入您的联系电话" bindinput="getCustomerPhone"/>
         </view>
         
       </view>
@@ -32,7 +32,7 @@
         </view>
         <view class="weui-cell__bd">
           <!-- <input class="weui-input" placeholder="请输入需要安装宽带的地址"/> -->
-          <textarea class="weui-textarea" placeholder="请输入需要安装宽带的地址" style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="请输入需要安装宽带的地址" style="height: 3.3em" bindinput="getCustomerAddress"/>
         </view>
         
       </view>

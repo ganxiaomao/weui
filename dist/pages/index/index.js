@@ -1,11 +1,34 @@
 Page({
+  data:{
+    customerName: '',
+    customerPhone: '',
+    customerAddress: ''
+  },
+  getCustomerName:function(e){
+    var value = e.detail.value;
+    this.setData({
+      customerName: value
+    });
+  },
+  getCustomerPhone:function(e){
+    var value = e.detail.value;
+    this.setData({
+      customerPhone: value
+    });
+  },
+  getCustomerAddress:function(e){
+    var value = e.detail.value;
+    this.setData({
+      customerAddress: value
+    });
+  },
   applyRequest:function(){
     wx.request({
       url: 'http://localhost:27005/teccom/installRequestApply',
       data:{
-        customerName:'甘震',
-        customerPhone:'15345519552',
-        customerAddress:'合肥市'
+        customerName:this.data.customerName,
+        customerPhone: this.data.customerPhone,
+        customerAddress: this.data.customerAddress
       },
       header: {
         'content-type': 'application/json'
