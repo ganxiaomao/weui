@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "example/index",
 
     "example/button/button",
@@ -31,13 +32,36 @@
     "example/navbar/navbar",
     "example/tabbar/tabbar",
 
-    "example/searchbar/searchbar"
+    "example/searchbar/searchbar",
+    "pages/information/information"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "WeUI for 小程序",
     "navigationBarBackgroundColor": "#f8f8f8",
     "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "common/assets/tab/teccom-store-release-100.png",
+        "selectedIconPath": "common/assets/tab/teccom-store-press-100.png",
+        "text": "装机"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "iconPath": "common/assets/tab/teccom-information-release-100.png",
+        "selectedIconPath": "common/assets/tab/teccom-information-press-100.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "example/index",
+        "iconPath": "common/assets/tab/teccom-store-release-100.png",
+        "selectedIconPath": "common/assets/tab/teccom-store-press-100.png",
+        "text": "案例"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,

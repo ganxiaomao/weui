@@ -1,5 +1,6 @@
+
 WeUI for 小程序 为微信小程序量身设计  
-=====
+
 
 [![npm version](https://img.shields.io/npm/v/weui-wxss.svg)](https://www.npmjs.org/package/weui-wxss)
 [![Gitter](https://badges.gitter.im/weui/weui.svg)](https://gitter.im/weui/weui?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -38,3 +39,7 @@ The MIT License(http://opensource.org/licenses/MIT)
 ## 贡献
 
 如果你有好的意见或建议，欢迎给我们提issue或pull request。
+
+# weui
+wechat mini program
+

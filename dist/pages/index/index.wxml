@@ -1,0 +1,51 @@
+<view class="page">
+
+  <view class="page__bd">
+        <image class="weui-article__img" src="../../common/assets/index/index_image.jpg" mode="aspectFit" style="" />
+
+    <view class="weui-cells__title">预约装机</view>
+    <view class="weui-cells weui-cells_after-title">
+
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">客户姓名</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入您的姓名"/>
+        </view>
+        
+      </view>
+
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">电话</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入您的联系电话"/>
+        </view>
+        
+      </view>
+
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">装机地址</view>
+        </view>
+        <view class="weui-cell__bd">
+          <!-- <input class="weui-input" placeholder="请输入需要安装宽带的地址"/> -->
+          <textarea class="weui-textarea" placeholder="请输入需要安装宽带的地址" style="height: 3.3em" />
+        </view>
+        
+      </view>
+
+    </view>
+
+    <view class="weui-btn-area" >
+      <button class="weui-btn" type="primary" bindtap="applyRequest">确定</button>
+    </view>
+
+    <view class="weui-footer" style='margin-top:30px;'>
+      <view class="weui-footer__text">Copyright © 2008-2016 weui.io</view>
+    </view>
+  </view>
+
+</view>
